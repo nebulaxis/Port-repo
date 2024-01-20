@@ -1,0 +1,31 @@
+/* Education.css */
+.education-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .college-image-container {
+    margin-bottom: 20px;
+  }
+  
+  .college-image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .education-details h3 {
+    margin-top: 0;
+  }
+  
+  .education-details p {
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 600px) {
+    .college-image-container img {
+      border-radius: 0;
+    }
+  }
+  

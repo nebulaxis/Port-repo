@@ -1,0 +1,52 @@
+/* About.css */
+
+.about-container {
+  background-color: #fdc1ff; /* Change this color as desired */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 5px solid #000000; /* Add a white border around the profile picture */
+}
+
+.info {
+  max-width: 600px;
+  color: #444; /* Darker text color for better readability */
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(255, 182, 81); /* Optional: Change the font family */
+}
+
+h2 {
+  color: #3498db;
+  font-size: 2.5em; /* Increase the font size for headings */
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #2ecc71; /* Green color for subheadings */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  margin: 10px 0;
+  color: #555; /* Slightly darker text color for list items */
+}
+
+/* Add more styles as needed */

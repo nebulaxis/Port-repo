@@ -1,0 +1,58 @@
+/* Skills.css */
+
+.skills-page {
+  background-color: #c2a355; /* Change this color as desired for the skills page */
+}
+
+.skills-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  background-color: #ffcccb; /* Change this color as desired */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .skills-category {
+    margin-bottom: 40px;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  li {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .skills-container {
+      padding: 20px;
+    }
+  
+    .skills-category {
+      margin-bottom: 20px;
+    }
+  
+    li {
+      padding: 8px;
+    }
+  }
+  

@@ -1,0 +1,125 @@
+
+
+body.home-body {
+  background-color: rgb(0, 0, 0);
+}
+
+.home-container {
+  text-align: center;
+  padding: 50px;
+  background-image: url('/src/images/background.jpg'); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: #54abee;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.header p.developer-description {
+  color: #000000; /* Change this to your desired color */
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header p {
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header h1 {
+  font-size: 3em;
+  background: linear-gradient(45deg, #974405, #ed2709, #2cf61e);
+  background-size: 600% 600%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: gradientAnimation 15s infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.additional-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.section-links {
+  text-align: center; /* Center align the section links */
+}
+
+.section-links a {
+  display: block;
+  background-color: #b1620d;
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.section-links a:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  margin-top: 50px; /* Adjust as needed */
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-links img {
+  width: 30px; /* Adjust as needed */
+  height: 30px; /* Adjust as needed */
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,60 @@
+/* TechnologyCard.css */
+
+.technology-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #dbd523;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .technology-card i {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .technology-details {
+    text-align: center;
+  }
+  
+  .technology-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+/* TechnologyCard.css */
+
+.technology-card {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.technology-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Optional: Add a smooth transition for the icon */
+.technology-card i {
+  transition: transform 0.3s ease;
+}
+
+.technology-card:hover i {
+  transform: translateY(5px);
+}
+
+  
+  @media (max-width: 768px) {
+    .technology-card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .technology-card {
+      width: 100%;
+    }
+  }
+  
